@@ -1,8 +1,5 @@
 # Day-1 of 50 Days Of Code By Benjamin Bennett Alexander
 
-from math import sqrt
-
-
 def divide_or_square(n):
     if n % 5 == 0:
         square_root = n ** 0.5
