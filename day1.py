@@ -7,5 +7,5 @@ def divide_or_square(n):
     else:
         return f"As your number is not divisible by 5, the remainder of your number divided by 5 is {n%5}"
 
-n1 = input("Enter your number: ")
-divide_or_square(n1)
+n1 = int(input("Enter your number: "))
+print(divide_or_square(n1))
